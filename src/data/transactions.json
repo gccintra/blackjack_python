@@ -28,5 +28,71 @@
         "transaction_type": "Deposit",
         "value": 300,
         "transaction_date": "2025-01-07T00:21:48.112957"
+    },
+    {
+        "account_transaction": "garrafa",
+        "transaction_type": "Deposit",
+        "value": 100,
+        "transaction_date": "2025-01-07T12:17:21.544269"
+    },
+    {
+        "account_transaction": "garrafa",
+        "transaction_type": "Withdraw",
+        "value": 50,
+        "transaction_date": "2025-01-07T12:17:30.410537"
+    },
+    {
+        "account_transaction": "garrafa",
+        "transaction_type": "Deposit",
+        "value": 10,
+        "transaction_date": "2025-01-07T12:22:04.996619"
+    },
+    {
+        "account_transaction": "garrafa",
+        "transaction_type": "Withdraw",
+        "value": 3,
+        "transaction_date": "2025-01-07T12:22:40.293035"
+    },
+    {
+        "account_transaction": "Gustavo",
+        "transaction_type": "Withdraw",
+        "value": 10,
+        "transaction_date": "2025-01-07T13:07:46.607866"
+    },
+    {
+        "account_transaction": "Gustavo",
+        "transaction_type": "Deposit",
+        "value": 1,
+        "transaction_date": "2025-01-07T13:08:55.667935"
+    },
+    {
+        "account_transaction": "Gustavo",
+        "transaction_type": "Withdraw",
+        "value": 9,
+        "transaction_date": "2025-01-07T13:09:23.322127"
+    },
+    {
+        "account_transaction": "Gustavo",
+        "transaction_type": "Deposit",
+        "value": 8,
+        "transaction_date": "2025-01-07T13:09:42.715000"
+    },
+    {
+        "account_transaction": "Gustavo",
+        "transaction_type": "Deposit",
+        "value": 10,
+        "transaction_date": "2025-01-07T13:13:43.775906"
+    },
+    {
+        "account_transaction": "Gustavo",
+        "transaction_type": "Withdraw",
+        "value": 10,
+        "transaction_date": "2025-01-07T13:14:21.274960"
+    },
+    {
+        "account_transaction": "Caderno",
+        "transaction_type": "Deposit",
+        "value": 1000,
+        "transaction_date": "2025-01-07T13:29:22.469543"
     }
 ]

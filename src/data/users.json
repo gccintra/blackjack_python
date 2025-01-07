@@ -1,8 +1,8 @@
 [
     {
         "username": "Gustavo",
-        "password": "!040505Gu",
-        "total_chips": 736
+        "password": "123",
+        "total_chips": 610
     },
     {
         "username": "GOO",
@@ -13,5 +13,25 @@
         "username": "Geisel",
         "password": "Geisel!01",
         "total_chips": 0
+    },
+    {
+        "username": "garrafa",
+        "password": "!Teste123",
+        "total_chips": 9
+    },
+    {
+        "username": "name",
+        "password": "!TEstes123",
+        "total_chips": 0
+    },
+    {
+        "username": "GOOOOO",
+        "password": "!Teste123",
+        "total_chips": 0
+    },
+    {
+        "username": "Caderno",
+        "password": "!Teclado123",
+        "total_chips": 1000
     }
 ]

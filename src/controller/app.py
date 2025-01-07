@@ -1,14 +1,12 @@
 from controller.auth import Auth
 from controller.blackjack import Blackjack
 from controller.transactions import Transactions
-from controller.my_performance import MyPerformance
 
 class App():
     def __init__(self):
         self.auth_controller = Auth()
         self.blackjack_controller = Blackjack()
         self.transactions_controller = Transactions()
-        self.my_performance_controller = MyPerformance()
         self.__current_user = None
 
     def auth_menu(self):
@@ -36,7 +34,7 @@ class App():
                 '1': self.blackjack_controller.start_game,
                 '2': self.transactions_controller.deposit,
                 '3': self.transactions_controller.withdraw,
-                '4': self.my_performance_controller.show,
+                '4': self.transactions_controller.show,
                 '5': self.logout
             }
             action = options.get(decision_menu)
@@ -53,4 +51,4 @@ class App():
 
 
     def logout(self):
-        self.blackjack_controller.blackjack_view.display_message("Logging out...", sleep_time=2)
+        self.blackjack_controller.blackjack_view.display_message("\nLogging out...", sleep_time=2)

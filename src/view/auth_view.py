@@ -5,11 +5,11 @@ class AuthView(AppView):
 
     def auth_menu(self):
         self.clear_screen()
-        print('============ BlackJack ============')            
-        print("What would you like to do?")
+        print('============ BlackJack ============\n')            
+        print("What would you like to do?\n")
         print("[1] - Login")
         print("[2] - Register")
-        decision_menu = input("Select an option: ")
+        decision_menu = input("\nSelect an option: ")
         return decision_menu
     
 
@@ -20,7 +20,7 @@ class AuthView(AppView):
 
     def login_form(self):
         self.clear_screen()
-        print('============ BlackJack Login ============')
+        print('============ BlackJack Login ============\n')
         
         username = input('Insert your username: ').strip()
         password = input('Insert your password: ').strip()
