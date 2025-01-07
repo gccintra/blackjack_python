@@ -48,16 +48,15 @@ Isso iniciará o jogo e pedirá para você realizar o login ou criar uma nova co
 ## Fluxo do Jogo
 
 1. **Cadastro/Login**: O usuário é solicitado a criar uma conta ou fazer login.
-2. **Depósito/Retirada**: O usuário pode depositar chips para jogar ou retirar seus chips antes de jogar.
+2. **Depósito/Retirada**: O usuário pode depositar dinheiro para jogar ou retirar qualquer valor antes de jogar (desde que esteja disponível em sua conta).
 3. **Jogo de Blackjack**: O jogo de Blackjack é jogado com o objetivo de atingir o maior valor possível sem ultrapassar 21 pontos.
-4. **Final do Jogo**: Após a partida, o saldo de chips é atualizado e o usuário pode optar por jogar novamente ou sair.
+4. **Final do Jogo**: Após a partida, o saldo do jogador é atualizado e o usuário pode optar por jogar novamente ou sair.
 
 ## Exemplo de Uso
 
 ### Cadastro de novo usuário
 
 1. Escolha a opção de **registrar** e forneça um nome de usuário e senha.
-2. Defina a quantidade de chips com os quais você deseja começar.
 
 ### Realizar Depósito
 
@@ -70,5 +69,5 @@ Isso iniciará o jogo e pedirá para você realizar o login ou criar uma nova co
 
 ### Finalização da Partida
 
-Após o fim da partida, o saldo de chips é atualizado e o jogador pode continuar jogando ou sair.
+Após o fim da partida, o saldo é atualizado e o jogador pode continuar jogando ou sair.
 
